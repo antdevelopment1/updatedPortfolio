@@ -19,12 +19,14 @@ html {
 nav {
   position: fixed;
   top: 36%;
+  width: 200px;
   /* left: -10%; */
   margin-left: 1.5rem;
   bottom: auto;
   /* outline: 1px solid red; */
-
+  padding: 15px 20px;
   z-index: 10;
+  background: #131826;
 }
 
 ul {
@@ -47,6 +49,7 @@ nav a {
   color: #595e68;
   text-decoration: none;
   font-size: 1em;
+  letter-spacing: 3px;
 }
 /* .circle {
   height: 10px;
@@ -102,9 +105,8 @@ nav .active-section .rect {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  color: #ccc;
+  color: #f2f3f8;
   font-size: 3em;
-  font-weight: 500;
 }
 
 .top-nav {
@@ -134,22 +136,23 @@ nav .active-section .rect {
 
 /* HERO SECTION */
 #section1 {
-  /* background-color: #141826; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+  background-color: #f2f3f8;
+
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
     url(./../images/sacredg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .media {
-  background: #141826;
+  background: #e5e8f1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
-  padding: 1.5rem 0;
+  /* margin-top: 5rem; */
+  font-size: 1rem;
   text-align: left;
   /* outline: 1px solid red; */
 }
@@ -158,6 +161,7 @@ nav .active-section .rect {
   width: 90%;
   display: flex;
   justify-content: center;
+  height: 20%;
 }
 
 .quote-container p {
@@ -166,15 +170,15 @@ nav .active-section .rect {
 }
 
 .author {
-  color: #b7b7b8be;
+  color: #131826;
 }
 
 blockquote {
-  font-size: 20px;
+  /* font-size: 20px; */
   width: 65%;
-  color: rgba(255, 255, 255, 0.3);
+  color: #131826;
   font-weight: 300;
-  border-left: 8px solid #5b5d6873;
+  border-left: 8px solid #131826;
   margin: 1.3rem 2rem;
   quotes: "\201C""\201D""\2018""\2019";
   padding: 5px 20px 5px 20px;
@@ -188,8 +192,14 @@ blockquote:before {
   left: -10px;
   position: relative;
   top: 20px;
-  color: #5b5d6873;
+  color: #131826;
   font-size: 3em;
+}
+
+.lighter {
+  background-color: #f2f3f8;
+  width: 100%;
+  padding-left: 15rem;
 }
 
 /*CREDITS*/
