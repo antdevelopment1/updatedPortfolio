@@ -159,11 +159,14 @@ nav .active-section .rect {
   width: 90%;
   display: flex;
   justify-content: center;
+  padding: 5px 0;
 }
 
 .quote-container p {
-  line-height: 1.2rem;
+  line-height: 1.3rem;
   margin-bottom: 10px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .author {
@@ -175,7 +178,7 @@ blockquote {
   width: 65%;
   color: #131826;
   font-weight: 200;
-  border-left: 5px solid #1318262d;
+  border-left: 5px solid #1318262a;
   margin: 1rem 2rem;
   quotes: "\201C""\201D""\2018""\2019";
   padding: 0px 20px 0px 20px;
@@ -204,18 +207,29 @@ blockquote:before {
   margin-top: 5rem;
 }
 
-.button-container button {
+.button-container a {
   width: 200px;
-  height: 50px;
+  padding: 13px 20px;
+  text-decoration: none;
+  text-align: center;
   text-transform: uppercase;
   background-color: #e5e8f1;
   color: #131826;
   font-size: 14px;
   box-shadow: 3px 3px 6px #13182663;
   letter-spacing: 5px;
+  border: 2px solid #e5e8f1;
   border-radius: 50px;
   margin: 0px 30px;
   font-weight: 200;
+  transition: background-color 0.2s ease-in-out 0.1s,
+    color 0.2s ease-in-out 0.1s, border 0.2s ease-in-out 0.1s;
+}
+
+.button-container a:hover {
+  background-color: #131826;
+  color: #e5e8f1;
+  border: 2px solid #131826;
 }
 
 /*CREDITS*/
