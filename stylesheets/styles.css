@@ -72,8 +72,8 @@ nav a {
 
 nav a:hover,
 nav .active-section {
-  color: #131826;
-  text-shadow: 1px 1px 1px #e5e8f1;
+  color: #e5e8f1;
+  text-shadow: 3px 3px 3px #595e68;
   font-weight: 400;
 }
 
