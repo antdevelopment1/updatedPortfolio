@@ -157,10 +157,11 @@ nav .active-section .rect {
 }
 
 .quote-container p {
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   margin-bottom: 10px;
   font-weight: 300;
   letter-spacing: 1px;
+  font-size: 16px;
 }
 
 .author {
