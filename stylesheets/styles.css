@@ -316,6 +316,159 @@ blockquote:before {
   background-color: #e5e8f1;
 }
 
+.icon-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* padding-top: 10rem; */
+  /* outline: 1px solid red; */
+}
+
+.icon-background {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  /* outline: 1px solid red; */
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* outline: 1px solid purple; */
+}
+
+figcaption {
+  color: #6e6f74;
+  font-size: 12px;
+  letter-spacing: 1px;
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+  /* outline: 1px solid red; */
+  text-align: center;
+}
+
+.icon-bar figure i {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  /* outline: 1px solid red; */
+}
+
+.icon-bar .fa-html5 {
+  /* color: rgba(255, 85, 0, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+  /* outline: 1px solid green; */
+}
+
+.icon-bar .fa-html5:hover {
+  color: rgba(255, 85, 0, 1);
+  transform: scale(1.2);
+}
+
+.icon-bar .fa-css3-alt {
+  /* color: rgba(0, 169, 224, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+}
+
+.icon-bar .fa-css3-alt:hover {
+  color: rgba(0, 169, 224, 1);
+  transform: scale(1.2);
+}
+
+.icon-bar .fa-js {
+  /* color: rgba(240, 224, 64, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+}
+
+.icon-bar .fa-js:hover {
+  color: rgba(240, 224, 64, 1);
+  transform: scale(1.2);
+}
+
+.icon-bar figure .fa-node {
+  /* color: rgba(74, 165, 101, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+}
+
+.icon-bar .fa-node:hover {
+  color: rgba(74, 165, 101, 1);
+  transform: scale(1.2);
+}
+
+.icon-bar .fa-database {
+  /* color: rgba(228, 133, 204, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+}
+
+.icon-bar .fa-database:hover {
+  color: rgba(228, 133, 204, 1);
+  transform: scale(1.2);
+}
+
+.icon-bar .fa-react {
+  /* color: rgba(0, 221, 255, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+}
+
+.icon-bar .fa-react:hover {
+  color: rgba(0, 221, 255, 1);
+  transform: scale(1.2);
+}
+
+.icon-bar .fa-github {
+  /* color: rgba(178, 187, 189, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+}
+
+.icon-bar .fa-github:hover {
+  color: rgba(178, 187, 189, 1);
+  transform: scale(1.2);
+}
+
+.icon-bar .fa-python {
+  /* color: #00c3ff;  fallback for old browsers */
+  /* color: rgba(255, 229, 102, 0.7); */
+  color: #bcc5de;
+  color: #90885f;
+  transform: scale(1);
+  transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
+}
+
+.icon-bar .fa-python:hover {
+  color: rgba(255, 229, 102, 1);
+  transform: scale(1.2);
+}
+
 #section5 {
   background-color: #131826;
   height: 600px;
